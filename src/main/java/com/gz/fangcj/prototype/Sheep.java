@@ -1,17 +1,18 @@
 package com.gz.fangcj.prototype;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.ToString;
 
 /**
- * @Author Fang chenjiang
- * @Date 2020/12/23
+ * @author Fang chenjiang
+ * @create 2020-12-24-10:11
  */
 @Data
-@AllArgsConstructor
 @ToString
-public class Sheep  implements  Cloneable{
+@AllArgsConstructor
+public class Sheep  implements   Cloneable{
 
     private String name;
     private Integer age;
